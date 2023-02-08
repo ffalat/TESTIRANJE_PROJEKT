@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-14T23:38:09 CET" name="AllTestsSuite" finished-at="2020-01-14T23:38:32 CET" duration-ms="22607">
+    <groups>
+    </groups>
+    <test started-at="2020-01-14T23:38:09 CET" name="Project test file" finished-at="2020-01-14T23:38:32 CET" duration-ms="22607">
+      <class name="WebTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:09 CET" name="setUp" finished-at="2020-01-14T23:38:17 CET" duration-ms="7965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:17 CET" name="setUpDriver" finished-at="2020-01-14T23:38:17 CET" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="goToBaseUrl()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:17 CET" name="goToBaseUrl" finished-at="2020-01-14T23:38:19 CET" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method signature="testAddToCart()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:19 CET" name="testAddToCart" finished-at="2020-01-14T23:38:21 CET" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="goToBaseUrl()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:21 CET" name="goToBaseUrl" finished-at="2020-01-14T23:38:22 CET" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method signature="testFilterItems()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:22 CET" name="testFilterItems" finished-at="2020-01-14T23:38:25 CET" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterItems -->
+        <test-method is-config="true" signature="goToBaseUrl()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:25 CET" name="goToBaseUrl" finished-at="2020-01-14T23:38:26 CET" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method signature="testHeaderDisplayed()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:26 CET" name="testHeaderDisplayed" finished-at="2020-01-14T23:38:26 CET" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderDisplayed -->
+        <test-method is-config="true" signature="goToBaseUrl()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:26 CET" name="goToBaseUrl" finished-at="2020-01-14T23:38:27 CET" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method signature="testProfileMenuChangeTab()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:27 CET" name="testProfileMenuChangeTab" finished-at="2020-01-14T23:38:29 CET" duration-ms="1571" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/div/ul/li/ul/li[3]/a"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DELL', ip: '192.168.254.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Matija\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aee968046abf21c0b9344a4514855875
+*** Element info: {Using=xpath, value=/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/div/ul/li/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/div/ul/li/ul/li[3]/a"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DELL', ip: '192.168.254.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Matija\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aee968046abf21c0b9344a4514855875
+*** Element info: {Using=xpath, value=/html/body/div[3]/div/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/div/ul/li/ul/li[3]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at InstarInformatikaPage.editProfileButton(InstarInformatikaPage.kt:29)
+at WebTest.testProfileMenuChangeTab(WebTest.kt:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfileMenuChangeTab -->
+        <test-method is-config="true" signature="goToBaseUrl()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:29 CET" name="goToBaseUrl" finished-at="2020-01-14T23:38:30 CET" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method signature="testSearchBoxFindsItem()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:30 CET" name="testSearchBoxFindsItem" finished-at="2020-01-14T23:38:31 CET" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBoxFindsItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebTest@7714e963]" started-at="2020-01-14T23:38:31 CET" name="tearDown" finished-at="2020-01-14T23:38:32 CET" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebTest -->
+    </test> <!-- Project test file -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
